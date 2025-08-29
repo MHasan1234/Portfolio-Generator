@@ -1,0 +1,40 @@
+{
+  "professionals": [
+    {
+      "id": 1,
+      "templateId": "template1",
+      "name": "Jennifer Park",
+      "title": "Software Engineer",
+      "tagline": "Building innovative drone control systems.",
+      "profileImage": "https://images.pexels.com/photos/3764119/pexels-photo-3764119.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "bio": "Full-stack developer with 5 years of experience creating robust and scalable web applications.",
+      "email": "jennifer.p@example.com",
+      "phone": "+1 555-0101",
+      "location": "Denver, CO",
+      "skills": ["React", "Node.js", "AWS", "MongoDB", "Drone SDK"],
+      "services": [
+        { "title": "Web Development", "description": "Creating responsive and dynamic websites." },
+        { "title": "API Integration", "description": "Connecting applications to third-party services." },
+        { "title": "Cloud Solutions", "description": "Deploying and managing apps on AWS." }
+      ]
+    },
+    {
+        "id": 2,
+        "templateId": "template2",
+        "name": "Kevin Brown",
+        "title": "Backend Engineer",
+        "tagline": "Architecting scalable drone fleet management.",
+        "profileImage": "https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "bio": "Backend engineer building scalable drone fleet management and data processing pipelines.",
+        "email": "kevin.b@example.com",
+        "phone": "+1 555-0102",
+        "location": "Seattle, WA",
+        "skills": ["Python", "Go", "Kubernetes", "Microservices", "PostgreSQL"],
+        "services": [
+            { "title": "System Architecture", "description": "Designing robust backend systems." },
+            { "title": "Data Engineering", "description": "Building efficient data pipelines." },
+            { "title": "DevOps", "description": "Automating deployment and infrastructure." }
+        ]
+    }
+  ]
+}
