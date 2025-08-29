@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import PortfolioForm from '../components/PortfolioForm';
-// import template1Preview from './template1-preview.png'; 
-// import template2Preview from './template2-preview.png';
+import PortfolioForm from '../components/PortfolioForm.jsx';
+
+// Placeholder URLs for template previews
+const template1Preview = 'https://i.imgur.com/h4j7W4n.png'; 
+const template2Preview = 'https://i.imgur.com/A1ef9z4.png';
 
 const API_URL = 'http://localhost:3001/professionals';
 

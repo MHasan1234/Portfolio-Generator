@@ -19,7 +19,7 @@ function Template2({ data }) {
                     <hr/>
                     <h3>Skills</h3>
                     <ul className="t2-skills-list">
-                      {data.skills.map(skill => <li key={skill}>{skill}</li>)}
+                      {data.skills && data.skills.map(skill => <li key={skill}>{skill}</li>)}
                     </ul>
                 </aside>
                 <main className="t2-content">
@@ -30,10 +30,24 @@ function Template2({ data }) {
                     <section>
                         <h3>What I Offer</h3>
                          <div className="t2-services-container">
-                            {data.services.map(service => (
-                                <div key={service.title} className="t2-service-card">
+                            {data.services && data.services.map(service => (
+                                service.title && <div key={service.title} className="t2-service-card">
                                     <h4>{service.title}</h4>
                                     <p>{service.description}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+                    <section className="t2-portfolio">
+                        <h3>My Work</h3>
+                        <div className="t2-portfolio-container">
+                            {data.portfolio && data.portfolio.map(project => (
+                                project.title && <div key={project.title} className="t2-portfolio-card">
+                                    <img src={project.image} alt={project.title} />
+                                    <div className="t2-portfolio-info">
+                                      <h4>{project.title}</h4>
+                                      <p>{project.description}</p>
+                                    </div>
                                 </div>
                             ))}
                         </div>

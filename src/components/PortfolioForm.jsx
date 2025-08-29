@@ -7,6 +7,9 @@ function PortfolioForm({ onSubmit }) {
         skills: '',
         service1Title: '', service1Desc: '',
         service2Title: '', service2Desc: '',
+        project1Title: '', project1Image: '', project1Desc: '',
+        project2Title: '', project2Image: '', project2Desc: '',
+        project3Title: '', project3Image: '', project3Desc: ''
     });
 
     const handleChange = (e) => {
@@ -22,6 +25,11 @@ function PortfolioForm({ onSubmit }) {
             services: [
                 { title: formData.service1Title, description: formData.service1Desc },
                 { title: formData.service2Title, description: formData.service2Desc },
+            ],
+            portfolio: [
+                { title: formData.project1Title, image: formData.project1Image, description: formData.project1Desc },
+                { title: formData.project2Title, image: formData.project2Image, description: formData.project2Desc },
+                { title: formData.project3Title, image: formData.project3Image, description: formData.project3Desc }
             ]
         };
         onSubmit(finalData);
@@ -57,6 +65,24 @@ function PortfolioForm({ onSubmit }) {
                 <hr/>
                 <input name="service2Title" value={formData.service2Title} onChange={handleChange} placeholder="Service 2 Title" />
                 <input name="service2Desc" value={formData.service2Desc} onChange={handleChange} placeholder="Service 2 Description" />
+            </fieldset>
+            
+            <fieldset>
+                <legend>Portfolio</legend>
+                <p>Project 1</p>
+                <input name="project1Title" value={formData.project1Title} onChange={handleChange} placeholder="Project 1 Title" />
+                <input name="project1Image" value={formData.project1Image} onChange={handleChange} placeholder="Project 1 Image URL" />
+                <textarea name="project1Desc" value={formData.project1Desc} onChange={handleChange} placeholder="Project 1 Description"></textarea>
+                <hr/>
+                <p>Project 2</p>
+                <input name="project2Title" value={formData.project2Title} onChange={handleChange} placeholder="Project 2 Title" />
+                <input name="project2Image" value={formData.project2Image} onChange={handleChange} placeholder="Project 2 Image URL" />
+                <textarea name="project2Desc" value={formData.project2Desc} onChange={handleChange} placeholder="Project 2 Description"></textarea>
+                <hr/>
+                <p>Project 3</p>
+                <input name="project3Title" value={formData.project3Title} onChange={handleChange} placeholder="Project 3 Title" />
+                <input name="project3Image" value={formData.project3Image} onChange={handleChange} placeholder="Project 3 Image URL" />
+                <textarea name="project3Desc" value={formData.project3Desc} onChange={handleChange} placeholder="Project 3 Description"></textarea>
             </fieldset>
 
             <button type="submit" className="btn btn-primary">Create Profile</button>

@@ -14,27 +14,59 @@
       "skills": ["React", "Node.js", "AWS", "MongoDB", "Drone SDK"],
       "services": [
         { "title": "Web Development", "description": "Creating responsive and dynamic websites." },
-        { "title": "API Integration", "description": "Connecting applications to third-party services." },
-        { "title": "Cloud Solutions", "description": "Deploying and managing apps on AWS." }
+        { "title": "API Integration", "description": "Connecting applications to third-party services." }
+      ],
+      "portfolio": [
+        {
+          "title": "Drone Control Dashboard",
+          "image": "https://images.pexels.com/photos/5439473/pexels-photo-5439473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "A web-based dashboard for real-time drone monitoring and control."
+        },
+        {
+          "title": "E-commerce Platform",
+          "image": "https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "A full-featured online store with a custom CMS and payment integration."
+        },
+        {
+          "title": "Data Visualization Tool",
+          "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "An analytics tool for visualizing complex business intelligence data."
+        }
       ]
     },
     {
-        "id": 2,
-        "templateId": "template2",
-        "name": "Kevin Brown",
-        "title": "Backend Engineer",
-        "tagline": "Architecting scalable drone fleet management.",
-        "profileImage": "https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&w=400",
-        "bio": "Backend engineer building scalable drone fleet management and data processing pipelines.",
-        "email": "kevin.b@example.com",
-        "phone": "+1 555-0102",
-        "location": "Seattle, WA",
-        "skills": ["Python", "Go", "Kubernetes", "Microservices", "PostgreSQL"],
-        "services": [
-            { "title": "System Architecture", "description": "Designing robust backend systems." },
-            { "title": "Data Engineering", "description": "Building efficient data pipelines." },
-            { "title": "DevOps", "description": "Automating deployment and infrastructure." }
-        ]
+      "id": 2,
+      "templateId": "template2",
+      "name": "Kevin Brown",
+      "title": "Backend Engineer",
+      "tagline": "Architecting scalable drone fleet management.",
+      "profileImage": "https://images.pexels.com/photos/532220/pexels-photo-532220.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "bio": "Backend engineer building scalable drone fleet management and data processing pipelines.",
+      "email": "kevin.b@example.com",
+      "phone": "+1 555-0102",
+      "location": "Seattle, WA",
+      "skills": ["Python", "Go", "Kubernetes", "Microservices", "PostgreSQL"],
+      "services": [
+        { "title": "System Architecture", "description": "Designing robust backend systems." },
+        { "title": "Data Engineering", "description": "Building efficient data pipelines." }
+      ],
+      "portfolio": [
+        {
+          "title": "Fleet Management API",
+          "image": "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "A high-performance API for managing and tracking a large fleet of devices."
+        },
+        {
+          "title": "Real-time Data Pipeline",
+          "image": "https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "A scalable pipeline for ingesting and processing real-time data streams."
+        },
+        {
+          "title": "Cloud Infrastructure Automation",
+          "image": "https://images.pexels.com/photos/1181373/pexels-photo-1181373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Automated deployment and management of cloud infrastructure using Terraform."
+        }
+      ]
     }
   ]
 }

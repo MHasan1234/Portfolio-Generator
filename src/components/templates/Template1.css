@@ -1,47 +1,25 @@
-.template1 {
-    background-color: #fff;
-    color: #333;
-    font-family: 'Arial', sans-serif;
-}
-.t1-hero {
-    background-color: #ffc107; /* Yellow */
-    color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 4rem 2rem;
-    text-align: left;
-}
-.t1-hero img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid white;
-}
-.t1-about, .t1-skills, .t1-services {
+.t1-portfolio {
     padding: 2rem;
     max-width: 900px;
     margin: 0 auto;
+    background-color: #f8f9fa;
 }
-.t1-skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-.t1-skill-tag {
-    background-color: #e0e0e0;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-.t1-services-container {
+.t1-portfolio-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
 }
-.t1-service-card {
-    background: #f8f8f8;
-    padding: 1rem;
+.t1-portfolio-card {
+    background: #fff;
     border-radius: 8px;
-    border-left: 4px solid #ffc107;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.t1-portfolio-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.t1-portfolio-card h4, .t1-portfolio-card p {
+    padding: 0 1rem 1rem;
 }
