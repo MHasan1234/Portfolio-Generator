@@ -1,7 +1,7 @@
 {
   "professionals": [
     {
-      "id": 1,
+      "id": "1",
       "templateId": "template1",
       "name": "Jennifer Park",
       "title": "Software Engineer",
@@ -11,10 +11,22 @@
       "email": "jennifer.p@example.com",
       "phone": "+1 555-0101",
       "location": "Denver, CO",
-      "skills": ["React", "Node.js", "AWS", "MongoDB", "Drone SDK"],
+      "skills": [
+        "React",
+        "Node.js",
+        "AWS",
+        "MongoDB",
+        "Drone SDK"
+      ],
       "services": [
-        { "title": "Web Development", "description": "Creating responsive and dynamic websites." },
-        { "title": "API Integration", "description": "Connecting applications to third-party services." }
+        {
+          "title": "Web Development",
+          "description": "Creating responsive and dynamic websites."
+        },
+        {
+          "title": "API Integration",
+          "description": "Connecting applications to third-party services."
+        }
       ],
       "portfolio": [
         {
@@ -35,7 +47,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "templateId": "template2",
       "name": "Kevin Brown",
       "title": "Backend Engineer",
@@ -45,10 +57,22 @@
       "email": "kevin.b@example.com",
       "phone": "+1 555-0102",
       "location": "Seattle, WA",
-      "skills": ["Python", "Go", "Kubernetes", "Microservices", "PostgreSQL"],
+      "skills": [
+        "Python",
+        "Go",
+        "Kubernetes",
+        "Microservices",
+        "PostgreSQL"
+      ],
       "services": [
-        { "title": "System Architecture", "description": "Designing robust backend systems." },
-        { "title": "Data Engineering", "description": "Building efficient data pipelines." }
+        {
+          "title": "System Architecture",
+          "description": "Designing robust backend systems."
+        },
+        {
+          "title": "Data Engineering",
+          "description": "Building efficient data pipelines."
+        }
       ],
       "portfolio": [
         {
@@ -67,6 +91,79 @@
           "description": "Automated deployment and management of cloud infrastructure using Terraform."
         }
       ]
+    },
+    {
+      "id": 1756547581783,
+      "name": "Mushirul Hassan",
+      "title": "MERN DEVELOPER",
+      "tagline": "LEARNER",
+      "profileImage": "",
+      "bio": "Tech enthusiast with hands on experience",
+      "email": "mushirulhassan2@gmail.com",
+      "phone": "+91-9905668900",
+      "location": "New Delhi, India",
+      "skills": [
+        "Languages: Python",
+        "Java",
+        "C",
+        "C++",
+        "HTML",
+        "CSS",
+        "JavaScript Developer Tools: VS Code",
+        "Eclipse",
+        "MongoDB Compass Technologies/Frameworks: GitHub",
+        "Git",
+        "Node.JS",
+        "React.JS",
+        "Bootstrap",
+        "Material UI",
+        "Express.JS",
+        "EJS",
+        "MongoDB",
+        "Mongoose",
+        "RESTful APIs"
+      ],
+      "service1Title": "Developer",
+      "service1Desc": "Mern development",
+      "service2Title": "",
+      "service2Desc": "",
+      "project1Title": "",
+      "project1Image": "",
+      "project1Desc": "",
+      "project2Title": "",
+      "project2Image": "",
+      "project2Desc": "",
+      "project3Title": "",
+      "project3Image": "",
+      "project3Desc": "",
+      "services": [
+        {
+          "title": "Developer",
+          "description": "Mern development"
+        },
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "portfolio": [
+        {
+          "title": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "image": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "image": "",
+          "description": ""
+        }
+      ],
+      "templateId": "template1"
     }
   ]
 }
